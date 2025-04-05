@@ -65,7 +65,7 @@ while True:
         if status1 == 2 and status2 == 2:
         #if pred1 == 2 and pred2 == 2:
             count += 1
-            cv2.putText(frame, "Eyes Closed, : " + str(count), (10, 30), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 1)
+            cv2.putText(frame, "Eyes Closed, No of seconds: " + str(count), (10, 30), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 1)
             # if eyes are closed for 10 consecutive frames, start the alarm
             if count >= 4:
                 cv2.putText(frame, "Drowsiness Alert!!!", (100, height-20), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 2)
