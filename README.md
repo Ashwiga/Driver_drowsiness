@@ -35,10 +35,5 @@ The performance of the drowsiness detection system can be evaluated based on met
 3. Optimizing the model for deployment on embedded systems or edge devices.
 4. Enhancing the user interface for better usability and customization options.
 
-## Contributors
-- [Rishikesh Shyam R S](https://github.com/rishikeshshyam)
-
-## License
-This project is licensed under the [MIT License](LICENSE).
 
 
